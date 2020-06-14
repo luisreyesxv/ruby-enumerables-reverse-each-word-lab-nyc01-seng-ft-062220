@@ -5,7 +5,7 @@ def reverse_each_word (sentence)
     broken_sentence.each do |word|
       if word == broken_sentence[-1]
         answer << "#{word.reverse}"
-      else  
+      else
         answer << "#{word.reverse} "
     end
     answer
