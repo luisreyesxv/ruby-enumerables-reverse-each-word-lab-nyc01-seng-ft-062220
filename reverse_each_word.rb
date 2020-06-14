@@ -9,5 +9,5 @@ def reverse_each_word (sentence)
       #  answer << "#{word.reverse} "
       #end
     binding.pry
-  
+
 end
