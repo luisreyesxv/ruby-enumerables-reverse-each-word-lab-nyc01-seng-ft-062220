@@ -2,7 +2,7 @@
 def reverse_each_word (sentence)
     broken_sentence = sentence.split
     answer = ""
-    broken_sentence.collect do |word| word.reverse
+    broken_sentence.collect do |word| word.reverse.to_s
       #if word == broken_sentence[-1]
       #  answer << "#{word.reverse}"
       #else
