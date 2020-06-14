@@ -7,6 +7,7 @@ def reverse_each_word (sentence)
         answer << "#{word.reverse}"
       else
         answer << "#{word.reverse} "
+      end  
     end
     answer
 
