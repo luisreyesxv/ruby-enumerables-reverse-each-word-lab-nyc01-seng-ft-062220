@@ -1,6 +1,6 @@
 
 def reverse_each_word (sentence)
-    broken_sentence = sentence.split("")
+    broken_sentence = sentence.split
     answer = ""
     broken_sentence.each do |word|
       if word == broken_sentence[-1]
