@@ -8,7 +8,7 @@ def reverse_each_word (sentence)
       #else
       #  answer << "#{word.reverse} "
       #end
-    binding.pry  
+    binding.pry
     answer.join()
 end
 
